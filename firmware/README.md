@@ -17,16 +17,23 @@ The `sensor.ino` sketch contains the primary operating logic for the device.
 
 This project relies on several open-source libraries. You will need to install these via your Arduino Library Manager (or your preferred IDE) before compiling the sketches. No external libraries are bundled within this repository.
 
-Search for and install the following libraries (we recommend installing any missing dependencies if the IDE prompts you to do so):
+Search for and install the following libraries (we recommend installing any missing dependencies if the IDE prompts you to do so). The versions we report here were used with the hardware we selected; newer versions may also be acceptable.
 
-* **RTClib** (by Adafruit) - *Required by both `rtc.ino` and `sensor.ino`*
-* **Adafruit GFX Library** 
-* **Adafruit ILI9341**
-* **Adafruit FT6206 Library** 
-* **Adafruit AS7341** 
-* **Adafruit TouchScreen**
-* **SdFat - Adafruit Fork** *(Note: Ensure you use the Adafruit fork of the SdFat library for compatibility)*
-* **Sensirion I2C SEN5X**
+* **RTClib** version 2.1.4 (by Adafruit) - *Required by both `rtc.ino` and `sensor.ino`*
+* **Adafruit GFX Library** version 1.12.1
+* **Adafruit ILI9341** version 1.6.2
+* **Adafruit FT6206 Library** version 1.1.0
+* **Adafruit AS7341** version 1.4.1
+* **Adafruit TouchScreen** version 1.1.5
+* **SdFat - Adafruit Fork** version 2.3.54 *(Note: Ensure you use the Adafruit fork of the SdFat library for compatibility)*
+* **Sensirion I2C SEN5X** version 0.3.0
+
+### related and/or dependent libraries
+* **Adafruit BusIO** version 1.17.2
+* **Wire** version 3.2.1
+* **SPI** version 3.2.1
+* **esptool.py** v4.8.1
+* **Sensirion Core** version 0.7.1
 
 ## SD Card Preparation
 

@@ -46,6 +46,7 @@ If you are building a sensor from scratch, we recommend the following sequence:
 The hardware designs, firmware, and documentation in this repository are licensed under the [MIT License](LICENSE), with the following exceptions located in the `/hardware/board_models` directory:
 * **`light.stl` and `metro.stl`:** Licensed under MIT License Copyright (c) 2016 Adafruit Industries.
 * **`tft.stl`:** Licensed under Creative Commons Attribution-ShareAlike 3.0 Adafruit Industries.
+* **`sen55.stl`:** This derivative STL part is included by permission from Sensirion Inc. Global Technical Support. Please see Sensirion's publicly available SEN55 STEP file for definitive information on the SEN55 component.
 
 *(Please see the `README.md` or license files within the `/hardware/board_models` directory for the full text of these specific licenses).*
 
